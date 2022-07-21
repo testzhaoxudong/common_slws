@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="1d5bc705-d457-4b72-baf3-344a161a0fe9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_requests/teach_api/common/teach_lesson_manage_api.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_requests/teach_api/common/teach_login_api.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_requests/teach_api/teach_config.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/python_requests/jingbo_api/config.py" afterPath="$PROJECT_DIR$/python_requests/jingbo_api/config.py" />
-      <change beforePath="$PROJECT_DIR$/python_requests/teach_api/common/get_exctl_testcase_data.py" afterPath="$PROJECT_DIR$/python_requests/teach_api/common/get_excel_testcase_data.py" />
-      <change beforePath="$PROJECT_DIR$/python_requests/teach_api/config.py" afterPath="$PROJECT_DIR$/python_requests/teach_api/__init__.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -448,7 +442,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658383068385</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2022-7-21 lesson_manage_api">
+      <created>1658400272158</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658400272158</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -485,7 +486,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1921875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -514,7 +514,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="common_v1.0" />
     <MESSAGE value="2022-7-21新增接口自动化" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-7-21新增接口自动化" />
+    <MESSAGE value="2022-7-21 lesson_manage_api" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-7-21 lesson_manage_api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
