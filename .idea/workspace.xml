@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="1d5bc705-d457-4b72-baf3-344a161a0fe9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_requests/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_requests/jingbo_api/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_requests/jingbo_api/common/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_requests/jingbo_api/common/get_testa_data.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_requests/jingbo_api/config.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_requests/jingbo_api/login_api.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_requests/jingbo_api/testcase/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_requests/jingbo_api/testcase/jb_login_api_case.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_requests/teach_api/common/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_requests/teach_api/common/get_exctl_testcase_data.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_requests/teach_api/config.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_requests/teach_api/test_run/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_requests/teach_api/testcase/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/python_requests/teach_api/common/teach_lesson_manage_api.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/python_requests/teach_api/common/teach_login_api.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/python_requests/teach_api/teach_config.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/demo.py" afterPath="$PROJECT_DIR$/demo.py" />
+      <change beforePath="$PROJECT_DIR$/python_requests/jingbo_api/config.py" afterPath="$PROJECT_DIR$/python_requests/jingbo_api/config.py" />
+      <change beforePath="$PROJECT_DIR$/python_requests/teach_api/common/get_exctl_testcase_data.py" afterPath="$PROJECT_DIR$/python_requests/teach_api/common/get_excel_testcase_data.py" />
+      <change beforePath="$PROJECT_DIR$/python_requests/teach_api/config.py" afterPath="$PROJECT_DIR$/python_requests/teach_api/__init__.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,63 +31,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wlhy_add_dindan_report.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_selenium/wlhy/src/test_run/WLHY/wlhy_add_dindan_report.py">
+      <file leaf-file-name="teach_config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_requests/teach_api/teach_config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_api.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_requests/jingbo_api/login_api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+            <state relative-caret-position="70">
+              <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_requests/jingbo_api/config.py">
+      <file leaf-file-name="teach_login_api.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_requests/teach_api/common/teach_login_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="363">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jb_login_api_case.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_requests/jingbo_api/testcase/jb_login_api_case.py">
+      <file leaf-file-name="teach_lesson_manage_api.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_requests/teach_api/common/teach_lesson_manage_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="975">
+              <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_requests/teach_api/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_exctl_testcase_data.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python_requests/teach_api/common/get_exctl_testcase_data.py">
+      <file leaf-file-name="get_excel_testcase_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_requests/teach_api/common/get_excel_testcase_data.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="529">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -107,18 +77,6 @@
             <state relative-caret-position="874">
               <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wlhy_adduser_report.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_selenium/wlhy/src/test_run/WLHY/wlhy_adduser_report.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -138,11 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ykjt/src/commin/ykjt_common.py" />
-        <option value="$PROJECT_DIR$/ykjt/src/test_case/test_login_case.py" />
-        <option value="$PROJECT_DIR$/src/common/get_test_file.py" />
-        <option value="$PROJECT_DIR$/study.py" />
-        <option value="$PROJECT_DIR$/python_selenium/dp/src/business/add_jingjiashopping_business.py" />
         <option value="$PROJECT_DIR$/python_selenium/dp/src/business/login_business.py" />
         <option value="$PROJECT_DIR$/python_selenium/dp/src/business/out_jingjiashopping_business.py" />
         <option value="$PROJECT_DIR$/python_selenium/dp/src/pages/add_jingjiashopping_page.py" />
@@ -185,10 +138,15 @@
         <option value="$PROJECT_DIR$/python_requests/jingbo_api/login_api.py" />
         <option value="$PROJECT_DIR$/demo.py" />
         <option value="$PROJECT_DIR$/python_requests/jingbo_api/common/get_testa_data.py" />
-        <option value="$PROJECT_DIR$/python_requests/jingbo_api/config.py" />
         <option value="$PROJECT_DIR$/python_requests/jingbo_api/testcase/jb_login_api_case.py" />
-        <option value="$PROJECT_DIR$/python_requests/teach_api/config.py" />
         <option value="$PROJECT_DIR$/python_requests/teach_api/common/get_exctl_testcase_data.py" />
+        <option value="$PROJECT_DIR$/python_requests/teach_api/config.py" />
+        <option value="$PROJECT_DIR$/python_requests/teach_api/common/login_api.py" />
+        <option value="$PROJECT_DIR$/python_requests/teach_api/common/teach_login_api.py" />
+        <option value="$PROJECT_DIR$/python_requests/teach_api/common/teach_lesson_change_api.py" />
+        <option value="$PROJECT_DIR$/python_requests/jingbo_api/config.py" />
+        <option value="$PROJECT_DIR$/python_requests/teach_api/teach_config.py" />
+        <option value="$PROJECT_DIR$/python_requests/teach_api/common/teach_lesson_manage_api.py" />
       </list>
     </option>
   </component>
@@ -267,6 +225,14 @@
               <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="python_requests" type="462c0819:PsiDirectoryNode" />
               <item name="teach_api" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="get_excel_testcase_data.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="common" type="b2602c69:ProjectViewProjectNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="python_requests" type="462c0819:PsiDirectoryNode" />
+              <item name="teach_api" type="462c0819:PsiDirectoryNode" />
               <item name="excel_api_testcase_data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -282,18 +248,19 @@
     <property name="add_unversioned_files" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\data\juzhen\common\python_selenium" />
-      <recent name="C:\Users\Administrator\Desktop\data\juzhen\common\ykjt\file" />
-      <recent name="C:\Users\Administrator\Desktop\data\juzhen\common\file" />
-      <recent name="F:\py\common" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\data\juzhen\common\python_requests\teach_api\exctl_api_testcase_data" />
       <recent name="C:\Users\Administrator\Desktop\data\juzhen\common\python_requests\jingbo_api\excel_testcase_data" />
       <recent name="C:\Users\Administrator\Desktop\data\juzhen\common\python_selenium\wlhy" />
       <recent name="C:\Users\Administrator\Desktop\data\juzhen\common\python_selenium" />
       <recent name="C:\Users\Administrator\Desktop\data\juzhen\common\ykjt\pictures\login_picture" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\data\juzhen\common\python_requests\teach_api" />
+      <recent name="C:\Users\Administrator\Desktop\data\juzhen\common\python_selenium" />
+      <recent name="C:\Users\Administrator\Desktop\data\juzhen\common\ykjt\file" />
+      <recent name="C:\Users\Administrator\Desktop\data\juzhen\common\file" />
+      <recent name="F:\py\common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -308,25 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.get_exctl_testcase_data">
-    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="common" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.teach_lesson_manage_api">
     <configuration name="get_exctl_testcase_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,7 +288,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="common" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_requests/teach_api/common/get_exctl_testcase_data.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Desktop\data\juzhen\common\python_requests\teach_api\common\get_excel_testcase_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -363,37 +312,55 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="login_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="login_api (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_requests/jingbo_api" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_requests/teach_api/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="common" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_requests/jingbo_api/login_api.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Administrator\Desktop\data\juzhen\common\python_requests\teach_api\common\teach_login_api.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="wlhy_add_dindan_report" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="teach_lesson_manage_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_selenium/wlhy/src/test_run/WLHY" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_requests/teach_api/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="common" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_selenium/wlhy/src/test_run/WLHY/wlhy_add_dindan_report.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_requests/teach_api/common/teach_lesson_manage_api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="teach_login_api" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_requests/teach_api/common" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="common" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_requests/teach_api/common/teach_login_api.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -415,19 +382,19 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.demo" />
-      <item index="1" class="java.lang.String" itemvalue="Python.wlhy_add_dindan_report" />
-      <item index="2" class="java.lang.String" itemvalue="Python.login_api" />
-      <item index="3" class="java.lang.String" itemvalue="Python.get_testa_data" />
-      <item index="4" class="java.lang.String" itemvalue="Python.get_exctl_testcase_data" />
+      <item index="0" class="java.lang.String" itemvalue="Python.get_testa_data" />
+      <item index="1" class="java.lang.String" itemvalue="Python.get_exctl_testcase_data" />
+      <item index="2" class="java.lang.String" itemvalue="Python.login_api (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.teach_login_api" />
+      <item index="4" class="java.lang.String" itemvalue="Python.teach_lesson_manage_api" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.get_exctl_testcase_data" />
-        <item index="1" class="java.lang.String" itemvalue="Python.get_testa_data" />
-        <item index="2" class="java.lang.String" itemvalue="Python.demo" />
-        <item index="3" class="java.lang.String" itemvalue="Python.login_api" />
-        <item index="4" class="java.lang.String" itemvalue="Python.wlhy_add_dindan_report" />
+        <item index="0" class="java.lang.String" itemvalue="Python.teach_lesson_manage_api" />
+        <item index="1" class="java.lang.String" itemvalue="Python.teach_login_api" />
+        <item index="2" class="java.lang.String" itemvalue="Python.login_api (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.get_exctl_testcase_data" />
+        <item index="4" class="java.lang.String" itemvalue="Python.get_testa_data" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657680134779</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2022-7-21新增接口自动化">
+      <created>1658383068385</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658383068385</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -516,7 +490,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1921875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29281768" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22541437" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.49791667" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -539,43 +513,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="common_v1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="common_v1.0" />
+    <MESSAGE value="2022-7-21新增接口自动化" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-7-21新增接口自动化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
       <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python_selenium/dp/src/testcase/add_jingjiashopping_test_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_selenium/dp/src/common/currency.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_selenium/dp/src/testcase/out_jingjiashopping_test_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_selenium/dp/src/testrun/add_jingjiashopping_report.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_selenium/dp/src/testrun/out_jingjiashopping_report.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -819,17 +773,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_selenium/wlhy/src/test_run/WLHY/login_report.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -840,7 +784,7 @@
         <state relative-caret-position="322">
           <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -864,14 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
           <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_requests/jingbo_api/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -901,7 +837,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_requests/teach_api/config.py">
+    <entry file="file://$PROJECT_DIR$/python_requests/teach_api/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -909,10 +845,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_requests/teach_api/common/get_exctl_testcase_data.py">
+    <entry file="file://$PROJECT_DIR$/python_requests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_requests/teach_api/common/get_excel_testcase_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_requests/jingbo_api/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_selenium/wlhy/src/test_run/WLHY/login_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_requests/teach_api/teach_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_requests/teach_api/common/teach_login_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_requests/teach_api/common/teach_lesson_manage_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
           <folding />
         </state>
       </provider>
