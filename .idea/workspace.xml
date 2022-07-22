@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="1d5bc705-d457-4b72-baf3-344a161a0fe9" name="Default" comment="2022-7-21 lesson_manage_api">
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_selenium/dp/config/db_122_112_251_17.csv" />
+    <list default="true" readonly="true" id="1d5bc705-d457-4b72-baf3-344a161a0fe9" name="Default" comment="2022-7-22 lesson_manage_api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/python_selenium/dp/src/common/currency.py" afterPath="$PROJECT_DIR$/python_selenium/dp/src/common/currency.py" />
-      <change beforePath="$PROJECT_DIR$/python_selenium/dp/src/common/get_test_info.py" afterPath="$PROJECT_DIR$/python_selenium/dp/src/common/get_test_info.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,8 +72,8 @@
       <file leaf-file-name="currency.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python_selenium/dp/src/common/currency.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+            <state relative-caret-position="299">
+              <caret line="48" column="55" lean-forward="true" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -533,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658404424267</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2022-7-22 lesson_manage_api">
+      <created>1658487544331</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658487544331</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -600,7 +604,8 @@
     <MESSAGE value="common_v1.0" />
     <MESSAGE value="2022-7-21新增接口自动化" />
     <MESSAGE value="2022-7-21 lesson_manage_api" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-7-21 lesson_manage_api" />
+    <MESSAGE value="2022-7-22 lesson_manage_api" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-7-22 lesson_manage_api" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -986,8 +991,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_selenium/dp/src/common/currency.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="50" column="20" lean-forward="false" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
+        <state relative-caret-position="299">
+          <caret line="48" column="55" lean-forward="true" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
