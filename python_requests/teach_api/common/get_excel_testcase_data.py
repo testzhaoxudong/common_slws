@@ -1,3 +1,4 @@
+import json
 import os
 
 import xlrd
@@ -19,7 +20,7 @@ def get_api_testcase_data(file_name,sheet_name):
         #获取请求参数
         reqinfo = worksheet.cell(row,8).value
         # 获取请求返回结果
-        resinfo = worksheet.cell(row,10).value
+        resinfo = json.loads( worksheet.cell(row,10).value)
         #获取测试用例编号
         testcase_num = worksheet.cell(row,0).value
         #获取测试用例标题
@@ -29,6 +30,6 @@ def get_api_testcase_data(file_name,sheet_name):
     return testcaselist
 
 if __name__ == '__main__':
-    res = get_api_testcase_data("teach_testcase_data.xlsx","增加课程")
-    print(res[0])
+    res = get_api_testcase_data("teach_testcase_data.xlsx","登录")
+    print(res)
 

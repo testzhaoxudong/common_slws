@@ -2,7 +2,7 @@ from pprint import pprint
 
 import requests
 from python_requests.teach_api.teach_config import *
-def teach_ligin():
+def teach_login():
     teach_login_url =  f"{HOST}{LOGIN_API_PATH}"
     teach_login_data = {
         "username": "auto",

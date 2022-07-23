@@ -58,7 +58,7 @@ class Common:
         connect.close()
         return res
 if __name__ == '__main__':
-    res = Common().connect_db_122_112_251_17("SELECT * FROM `assayweight` WHERE id=10130020211214000458 AND varno=767")
+    res = Common().connect_db_122_112_251_17("SELECT * FROM `assayweight` WHERE id=10130020211214000458 AND varno=766")
     print(res)
 
 

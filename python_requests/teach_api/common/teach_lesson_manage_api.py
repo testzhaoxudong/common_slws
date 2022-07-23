@@ -1,12 +1,20 @@
+import json
+
 import requests
 
 from python_requests.teach_api.common.get_excel_testcase_data import get_api_testcase_data
-from python_requests.teach_api.common.teach_login_api import teach_ligin
+from python_requests.teach_api.common.teach_login_api import teach_login
 from python_requests.teach_api.teach_config import *
 
 class Teach_Lesson_Manage_Api:
     #获取cookie
-    user_cookie = teach_ligin()[0]
+    user_cookie = teach_login()[0]
+    #登录
+    def teach_login_api(self,login_data):
+        teach_login_url = f"{HOST}{LOGIN_API_PATH}"
+        teach_login_data = json.loads(login_data)
+        res = requests.post(url=teach_login_url, data=teach_login_data)
+        return res.json()
     #新增课程
     def add_lesson_api(self,lesson_data):
         add_lesson_url = f"{HOST}{ADD_LESSON_API_PATH}"
@@ -58,6 +66,9 @@ if __name__ == '__main__':
     # delete_res = Teach_Lesson_Manage_Api().delete_lesson_api(add_res["id"])
     # print(delete_res)
 
-    select_data = Teach_Lesson_Manage_Api().select_lesson_api(1,2)
-    print(select_data)
+    # select_data = Teach_Lesson_Manage_Api().select_lesson_api(1,2)
+    # print(select_data)
+    data = get_api_testcase_data("teach_testcase_data.xlsx","登录")[0][0]
+    res = Teach_Lesson_Manage_Api().teach_login_api(data)
+    print(res["retcode"])
 
