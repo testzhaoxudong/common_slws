@@ -1,70 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="1d5bc705-d457-4b72-baf3-344a161a0fe9" name="Default" comment="2022-7-23 teach_login_api_testcase">
-      <change beforePath="" afterPath="$PROJECT_DIR$/debug.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/.idea/mht_kuangjia.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/app/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/app/mht_phone.apk" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/business/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/business/action.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/business/setting/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/business/setting/denglu.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/business/setting/into_setting.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/config/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/config/capabilities.yaml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/config/mht_capabilities.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/data/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/data/denglu.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/data/getData.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/reports/20210410170949test_report.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/reports/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/test_case/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/test_case/test_login.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/test_run/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/test_run/mht_run.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Lib/tcl8.6/init.tcl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/Activate.ps1" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/_asyncio.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/_bz2.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/_ctypes.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/_ctypes_test.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/_decimal.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/_elementtree.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/_hashlib.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/_lzma.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/_msi.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/_multiprocessing.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/_overlapped.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/_socket.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/_sqlite3.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/_ssl.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/_testbuffer.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/_testcapi.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/_testconsole.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/_testimportmultiple.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/_testmultiphase.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/_tkinter.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/activate" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/activate.bat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/deactivate.bat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/pyexpat.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/python.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/python3.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/python36.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/pythonw.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/select.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/sqlite3.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/tcl86t.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/tk86t.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/unicodedata.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/vcruntime140.dll" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/Scripts/winsound.pyd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_appium/mht_kuangjia/venv/pyvenv.cfg" />
+    <list default="true" readonly="true" id="1d5bc705-d457-4b72-baf3-344a161a0fe9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -568,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658566619259</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="2022-7-25">
+      <created>1658751061441</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1658751061441</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -605,8 +549,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1328125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1328125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.50208336" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26187846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -636,7 +581,8 @@
     <MESSAGE value="2022-7-21 lesson_manage_api" />
     <MESSAGE value="2022-7-22 lesson_manage_api" />
     <MESSAGE value="2022-7-23 teach_login_api_testcase" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-7-23 teach_login_api_testcase" />
+    <MESSAGE value="2022-7-25" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-7-25" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
