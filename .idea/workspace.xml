@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="1d5bc705-d457-4b72-baf3-344a161a0fe9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/python_requests/teach_api/test_run/login_test_report.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/debug.py" afterPath="$PROJECT_DIR$/debug.py" />
       <change beforePath="$PROJECT_DIR$/python_requests/study_api/API_atuo_day1" afterPath="$PROJECT_DIR$/python_requests/study_api/API_atuo_day1" />
       <change beforePath="$PROJECT_DIR$/python_requests/study_api/API_auto_day2" afterPath="$PROJECT_DIR$/python_requests/study_api/API_auto_day2" />
-      <change beforePath="$PROJECT_DIR$/python_requests/teach_api/testcase/test_teach_login_api.py" afterPath="$PROJECT_DIR$/python_requests/teach_api/testcase/test_teach_login_api.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -486,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658796899456</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="teach_login_test_report">
+      <created>1658800381665</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1658800381665</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -557,7 +561,8 @@
     <MESSAGE value="2022-7-23 teach_login_api_testcase" />
     <MESSAGE value="2022-7-25" />
     <MESSAGE value="2022-7-26" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-7-26" />
+    <MESSAGE value="teach_login_test_report" />
+    <option name="LAST_COMMIT_MESSAGE" value="teach_login_test_report" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
