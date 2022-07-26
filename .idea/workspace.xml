@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="1d5bc705-d457-4b72-baf3-344a161a0fe9" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/python_requests/teach_api/test_run/login_test_report.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/debug.py" afterPath="$PROJECT_DIR$/debug.py" />
       <change beforePath="$PROJECT_DIR$/python_requests/study_api/API_atuo_day1" afterPath="$PROJECT_DIR$/python_requests/study_api/API_atuo_day1" />
       <change beforePath="$PROJECT_DIR$/python_requests/study_api/API_auto_day2" afterPath="$PROJECT_DIR$/python_requests/study_api/API_auto_day2" />
+      <change beforePath="$PROJECT_DIR$/python_requests/teach_api/testcase/test_teach_login_api.py" afterPath="$PROJECT_DIR$/python_requests/teach_api/testcase/test_teach_login_api.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,43 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_appium/mht_kuangjia/app/__init__.py">
+      <file leaf-file-name="test_teach_login_api.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_requests/teach_api/testcase/test_teach_login_api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="get_lesson_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_requests/study_api/API_auto_day2/common/get_lesson_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lesson_mange_api.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_requests/study_api/API_auto_day2/common/lesson_mange_api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_api.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_requests/study_api/API_auto_day2/common/login_api.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="232">
+              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -59,12 +30,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="time_stamp.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_requests/study_api/API_auto_day2/common/time_stamp.py">
+      <file leaf-file-name="login_test_report.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python_requests/teach_api/test_run/login_test_report.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="370">
+              <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,53 +45,9 @@
       <file leaf-file-name="test_lesson.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_requests/study_api/API_auto_day2/testcase/test_lesson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+            <state relative-caret-position="-150">
+              <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testsuite.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_requests/study_api/API_auto_day2/testsuite/testsuite.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_requests/study_api/API_auto_day2/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_requests/study_api/API_auto_day2/demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testcase_runner.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python_requests/study_api/API_auto_day2/testcase_runner.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -138,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/python_selenium/wlhy/src/business/WLHY/dindan_business.py" />
         <option value="$PROJECT_DIR$/python_selenium/wlhy/src/business/WLHY/login_business.py" />
         <option value="$PROJECT_DIR$/python_selenium/wlhy/src/business/WLHY/wlhy_add_carrier_business.py" />
         <option value="$PROJECT_DIR$/python_selenium/wlhy/src/business/WLHY/wlhy_add_driver_business.py" />
@@ -182,13 +110,14 @@
         <option value="$PROJECT_DIR$/python_requests/teach_api/common/teach_login_api.py" />
         <option value="$PROJECT_DIR$/study.py" />
         <option value="$PROJECT_DIR$/python_requests/teach_api/common/teach_lesson_manage_api.py" />
-        <option value="$PROJECT_DIR$/python_requests/teach_api/testcase/test_teach_login_api.py" />
         <option value="$PROJECT_DIR$/python_requests/teach_api/common/get_excel_testcase_data.py" />
-        <option value="$PROJECT_DIR$/debug.py" />
         <option value="$PROJECT_DIR$/python_requests/study_api/API_auto_day2/common/lesson_mange_api.py" />
         <option value="$PROJECT_DIR$/python_requests/study_api/API_auto_day2/common/login_api.py" />
         <option value="$PROJECT_DIR$/python_requests/study_api/API_auto_day2/testcase/test_lesson.py" />
         <option value="$PROJECT_DIR$/python_requests/study_api/API_auto_day2/testcase_runner.py" />
+        <option value="$PROJECT_DIR$/debug.py" />
+        <option value="$PROJECT_DIR$/python_requests/teach_api/test_run/login_test_report.py" />
+        <option value="$PROJECT_DIR$/python_requests/teach_api/testcase/test_teach_login_api.py" />
       </list>
     </option>
   </component>
@@ -245,33 +174,7 @@
             <path>
               <item name="common" type="b2602c69:ProjectViewProjectNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="python_appium" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="python_requests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="python_requests" type="462c0819:PsiDirectoryNode" />
-              <item name="study_api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="python_requests" type="462c0819:PsiDirectoryNode" />
-              <item name="study_api" type="462c0819:PsiDirectoryNode" />
-              <item name="API_auto_day2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="common" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="python_requests" type="462c0819:PsiDirectoryNode" />
-              <item name="study_api" type="462c0819:PsiDirectoryNode" />
-              <item name="API_auto_day2" type="462c0819:PsiDirectoryNode" />
-              <item name="testsuite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.debug">
+  <component name="RunManager" selected="Python.login_test_report">
     <configuration name="debug" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -352,19 +255,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="study" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="login_test_report" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_requests/teach_api/test_run" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="common" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/study.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_requests/teach_api/test_run/login_test_report.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -420,18 +323,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.teach_lesson_manage_api" />
-      <item index="1" class="java.lang.String" itemvalue="Python.study" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_teach_login_api.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python.get_excel_testcase_data" />
-      <item index="4" class="java.lang.String" itemvalue="Python.debug" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_teach_login_api.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python.get_excel_testcase_data" />
+      <item index="3" class="java.lang.String" itemvalue="Python.debug" />
+      <item index="4" class="java.lang.String" itemvalue="Python.login_test_report" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.debug" />
+        <item index="0" class="java.lang.String" itemvalue="Python.login_test_report" />
         <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_teach_login_api.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python.get_excel_testcase_data" />
-        <item index="3" class="java.lang.String" itemvalue="Python.teach_lesson_manage_api" />
-        <item index="4" class="java.lang.String" itemvalue="Python.study" />
+        <item index="2" class="java.lang.String" itemvalue="Python.debug" />
+        <item index="3" class="java.lang.String" itemvalue="Python.get_excel_testcase_data" />
+        <item index="4" class="java.lang.String" itemvalue="Python.teach_lesson_manage_api" />
       </list>
     </recent_temporary>
   </component>
@@ -576,16 +479,17 @@
       <option name="project" value="LOCAL" />
       <updated>1658796443146</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="2022-7-26">
+      <created>1658796899456</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1658796899456</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_test_login_case_YkjtLoginCase_test_login_case_01 - 2022.03.28 at 14h 11m 18s.xml">
-      <configuration name="py.test for test_login_case.YkjtLoginCase.test_login_case_01" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_for_test_login_case_YkjtLoginCase_test_login_case_01 - 2022.03.28 at 14h 11m 55s.xml">
-      <configuration name="py.test for test_login_case.YkjtLoginCase.test_login_case_01" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_for_test_login_case_YkjtLoginCase_test_login_case_01 - 2022.03.28 at 14h 29m 29s.xml">
       <configuration name="py.test for test_login_case.YkjtLoginCase.test_login_case_01" configurationId="tests" />
     </history-entry>
@@ -610,17 +514,23 @@
     <history-entry file="py_test_in_test_teach_login_api_py - 2022.07.23 at 11h 59m 11s.xml">
       <configuration name="py.test in test_teach_login_api.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_test_teach_login_api_py - 2022.07.26 at 09h 10m 37s.xml">
+      <configuration name="py.test in test_teach_login_api.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_teach_login_api_py - 2022.07.26 at 09h 50m 09s.xml">
+      <configuration name="py.test in test_teach_login_api.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15520833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.50208336" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.49791667" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26187846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31712708" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -663,13 +573,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python_selenium/wlhy/src/test_case/csdn_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_selenium/wlhy/src/test_case/login_case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -902,7 +805,7 @@
         <state relative-caret-position="570">
           <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -912,7 +815,7 @@
         <state relative-caret-position="660">
           <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -938,17 +841,7 @@
         <state relative-caret-position="960">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_requests/teach_api/testcase/test_teach_login_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="32" column="37" lean-forward="false" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -957,14 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="2868" column="12" lean-forward="false" selection-start-line="2868" selection-start-column="12" selection-end-line="2868" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/debug.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -981,7 +866,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -994,16 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_requests/study_api/API_auto_day2/common/login_api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_requests/study_api/API_auto_day2/common/time_stamp.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1012,11 +887,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_requests/study_api/API_auto_day2/testcase/test_lesson.py">
+    <entry file="file://$PROJECT_DIR$/python_requests/study_api/API_auto_day2/common/login_api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="300">
+          <caret line="10" column="36" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="36" />
+          <folding>
+            <element signature="e#539#550#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1030,11 +917,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_requests/study_api/API_auto_day2/config.py">
+    <entry file="file://$PROJECT_DIR$/python_requests/study_api/API_auto_day2/testcase_runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="420">
+          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1046,10 +935,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_requests/study_api/API_auto_day2/testcase_runner.py">
+    <entry file="file://$PROJECT_DIR$/python_requests/study_api/API_auto_day2/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_requests/teach_api/testcase/test_teach_login_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_requests/study_api/API_auto_day2/testcase/test_lesson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_requests/teach_api/test_run/login_test_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

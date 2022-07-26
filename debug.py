@@ -26,13 +26,13 @@
 # 案例2：获取dictory里的信息，并且把url的value值， data中嵌套字典的每个value值，按行输出
 import json
 
-dictory={'url':'http://www.baidu.com','data':{'username':'admin','pwd':'123456'}}
-for i in dictory:
-    print(dictory[i])
-    if i == 'data':
-        for j in dictory[i].values():
-            print(type(dictory[i]))
-            print(dictory[i])
+# dictory={'url':'http://www.baidu.com','data':{'username':'admin','pwd':'123456'}}
+# for i in dictory:
+#     print(dictory[i])
+#     if i == 'data':
+#         for j in dictory[i].values():
+#             print(type(dictory[i]))
+#             print(dictory[i])
 # print(type(dictory))
 # a = dictory["url"]
 # print(dictory["url"])
@@ -45,9 +45,10 @@ for i in dictory:
 # a = dict(dictory['url'])
 # print(type(dictory["url"]))
 # print(dictory.items())
+import time
 
-
-
+TIME = time.strftime("%Y%m%d%H%M%S")
+print(TIME)
 
 
 
