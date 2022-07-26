@@ -5,9 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/python_requests/study_api/API_atuo_day1" afterPath="$PROJECT_DIR$/python_requests/study_api/API_atuo_day1" />
       <change beforePath="$PROJECT_DIR$/python_requests/study_api/API_auto_day2" afterPath="$PROJECT_DIR$/python_requests/study_api/API_auto_day2" />
-      <change beforePath="$PROJECT_DIR$/python_requests/study_api/API_auto_day2/common/lesson_mange_api.py" afterPath="$PROJECT_DIR$/python_requests/study_api/API_auto_day2/common/lesson_mange_api.py" />
-      <change beforePath="$PROJECT_DIR$/python_requests/study_api/API_auto_day2/common/login_api.py" afterPath="$PROJECT_DIR$/python_requests/study_api/API_auto_day2/common/login_api.py" />
-      <change beforePath="$PROJECT_DIR$/python_requests/study_api/API_auto_day2/testcase/test_lesson.py" afterPath="$PROJECT_DIR$/python_requests/study_api/API_auto_day2/testcase/test_lesson.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -117,8 +114,8 @@
       <file leaf-file-name="testcase_runner.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python_requests/study_api/API_auto_day2/testcase_runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+            <state relative-caret-position="420">
+              <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -572,7 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658751198966</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="2022-7-26">
+      <created>1658796443146</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1658796443146</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -609,8 +613,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15520833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15520833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.50208336" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.49791667" order="12" side_tool="false" content_ui="tabs" />
@@ -641,7 +646,8 @@
     <MESSAGE value="2022-7-22 lesson_manage_api" />
     <MESSAGE value="2022-7-23 teach_login_api_testcase" />
     <MESSAGE value="2022-7-25" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022-7-25" />
+    <MESSAGE value="2022-7-26" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022-7-26" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1042,8 +1048,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_requests/study_api/API_auto_day2/testcase_runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        <state relative-caret-position="420">
+          <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
