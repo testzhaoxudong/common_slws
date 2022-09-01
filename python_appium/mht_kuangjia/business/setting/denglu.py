@@ -1,9 +1,9 @@
-from time import sleep
+from asyncio import sleep
+from python_appium.mht_kuangjia.business.action import huadong
+from python_appium.mht_kuangjia.business.setting.into_setting import shezhi
+from python_appium.mht_kuangjia.config.mht_capabilities import getDriver
+from python_appium.mht_kuangjia.data.getData import getdata
 
-from business.action import huadong
-from business.setting.into_setting import shezhi
-from config.mht_capabilities import getDriver
-from data.getData import getdata
 
 
 def login(appDriver,ip,username,passwd):
@@ -27,4 +27,4 @@ if __name__ == '__main__':
     huadong(driver)
     shezhi(driver)
     data=getdata("../../data/denglu.csv",4)
-    denglu(driver,data[0],data[1],data[2])
+    login(driver,data[0],data[1],data[2])

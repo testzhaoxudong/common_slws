@@ -1,6 +1,7 @@
 import os
 
 import pymysql
+from selenium.webdriver.common.keys import Keys
 
 import time
 from selenium import webdriver
@@ -40,6 +41,9 @@ class Common:
     def double_click(self,driver,element):
         element = WebDriverWait(driver,10,0.2).until(EC.presence_of_element_located(( element )))
         ActionChains(driver).double_click(element).perform()
+    """通用方法二十一：回车"""
+    def enter(self,driver,element):
+        driver.find_element_by_xpath(  element  ).send_keys(Keys.ENTER)
 
     """连接数据库122.112.251.17"""
     def connect_db_122_112_251_17(self,sql):

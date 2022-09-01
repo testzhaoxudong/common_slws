@@ -1,6 +1,6 @@
 from time import sleep
 
-from config.mht_capabilities import getDriver
+from python_appium.mht_kuangjia.config.mht_capabilities import getDriver
 
 
 def huadong(appDriver):

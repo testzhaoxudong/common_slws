@@ -37,7 +37,7 @@ class  Get_Test_Info:
 if __name__ == '__main__':
     # config = Get_Test_Info().get_test_config("dp_url.csv","dp_pc_url")
     # print(config)
-    data = Get_Test_Info().get_test_data("login_data.csv",3)
-    print(data[2])
-    db = Get_Test_Info().get_test_database_config("db_122_112_251_17.csv")
-    print(db)
+    data = Get_Test_Info().get_test_data("out_jingjia_data",1)
+    print(data)
+    # db = Get_Test_Info().get_test_database_config("db_122_112_251_17.csv")
+    # print(db)

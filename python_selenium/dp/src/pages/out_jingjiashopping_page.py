@@ -1,12 +1,13 @@
+from selenium.webdriver import ActionChains
+
 import time
 from selenium.webdriver.common.by import By
-
 from python_selenium.dp.src.common.currency import Common
 
 
 class OutJingjiaShoppingPage(Common):
     mall_admin = By.XPATH,'//*[text()="商城管理"] '
-    jj = By.XPATH,'/html/body/div/div/section/div/aside/div/ul/li[2]/ul/li[12]/a'
+    jj = By.XPATH,'/html/body/div[1]/div/section/div/aside/div/ul/li[5]/ul/li[12]/a'
     add_button = By.XPATH,'//*[@class="ant-btn ant-btn-primary" and @type="button"] '
     activity_title = By.ID,'activityTitle'#活动标题
     jg = By.ID,'factoryId'#所属机构
@@ -19,10 +20,13 @@ class OutJingjiaShoppingPage(Common):
     biddingWay = By.ID,'biddingWay'#竞价方式
     gkjj = By.XPATH,'//*[@class="ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active"]' #公开竞价
     qpj = By.ID,'biddingStartPrice'    #起拍价
+    qfj = By.ID,'biddingGraded'
     shopping_shuliang = By.ID,'materialTotal'  #商品数量
     unit = By.ID,'unit'  #计量单位
+    lifang = By.XPATH,'//*[text()="立方"]'
     earnestMoney = By.ID,'earnestMoney' #保证金
     startTime = By.ID,'startTime' #开始时间
+    # change_time = By.XPATH.'/html/body/div[6]/div/div/div/div/div[2]/div[2]/table/tbody/tr[5]/td[4]/div'
     send_staertime = By.XPATH,'// *[ @class ="ant-calendar-input "]'
     startTime_quedin = By.XPATH,'//*[@class="ant-calendar-ok-btn"]'
     endTime = By.ID,'endTime' #结束时间
@@ -40,7 +44,7 @@ class OutJingjiaShoppingPage(Common):
     # success_assert = By.XPATH,"<span></span>"
 
 
-    def out_jjshopping_page(self,driver,activity_title_vaule,materialDesc_value,materialImg_value,qpj_value,shopping_shuliang_value,earnestMoney_value,startTime_value,endTime_value,shippedDays_value):
+    def out_jjshopping_page(self,driver,activity_title_vaule,materialDesc_value,materialImg_value,qpj_value,qfj_value,shopping_shuliang_value,earnestMoney_value,startTime_value,endTime_value,shippedDays_value):
         object = Common()
         object.click(driver,self.mall_admin)
         time.sleep(0.5)
@@ -57,16 +61,21 @@ class OutJingjiaShoppingPage(Common):
         object.click(driver,self.biddingWay)
         object.click(driver,self.gkjj)
         object.send_keys(driver, self.qpj,qpj_value)
+        object.send_keys(driver,self.qfj,qfj_value)
         object.send_keys(driver, self.shopping_shuliang,shopping_shuliang_value)
+        object.click(driver,self.unit)
+        object.click(driver,self.lifang)
         object.send_keys(driver, self.earnestMoney,earnestMoney_value)
         object.click(driver,self.startTime)
         object.send_keys(driver, self.send_staertime,startTime_value)
-        object.click(driver,self.startTime_quedin)
+        # object.click(driver,self.startTime_quedin)
+        ActionChains(driver).move_by_offset(400, 100).click().perform()
         time.sleep(0.5)
         object.click(driver,self.endTime)
         object.send_keys(driver, self.send_endtime,endTime_value)
-        object.click(driver,self.endTime_quedin)
-        object.send_keys(driver, self.shippedDays,shippedDays_value)
+        # object.click(driver,self.endTime_quedin)
+        object.enter(driver, self.send_endtime)
+        ActionChains(driver).move_by_offset(400, 100).click().perform()
         object.click(driver,self.out_button)
         time.sleep(1)
         object.click(driver,self.jjshh)

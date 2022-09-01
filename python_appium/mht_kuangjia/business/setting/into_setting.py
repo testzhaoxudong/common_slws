@@ -1,7 +1,6 @@
+from python_appium.mht_kuangjia.business.action import huadong
+from python_appium.mht_kuangjia.config.mht_capabilities import getDriver
 from time import sleep
-
-from business.action import huadong
-from config.mht_capabilities import getDriver
 
 
 def shezhi(appDriver):

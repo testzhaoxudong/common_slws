@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "15a3fd38-565d-4740-a856-bf22827b1e1f",
+		"name": "健康码接口",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "鉴权接口",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic a3NwdDpzYWFzX2tzcHQ=",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json;charset=UTF-8",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Tenant_Id",
+						"value": "925650",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://119.3.13.80:81/shipper-auth/oauth/token?tenantId=000000&username=health_code_access_token_admin&password=health@2022&grant_type=password",
+					"protocol": "http",
+					"host": [
+						"119",
+						"3",
+						"13",
+						"80"
+					],
+					"port": "81",
+					"path": [
+						"shipper-auth",
+						"oauth",
+						"token"
+					],
+					"query": [
+						{
+							"key": "tenantId",
+							"value": "000000"
+						},
+						{
+							"key": "username",
+							"value": "health_code_access_token_admin"
+						},
+						{
+							"key": "password",
+							"value": "health@2022"
+						},
+						{
+							"key": "grant_type",
+							"value": "password"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "健康码信息查询",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Blade-Auth",
+						"value": "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiIwMDAwMDAiLCJ0ZW5hbnRfbmFtZSI6bnVsbCwidXNlcl9uYW1lIjoiaGVhbHRoX2NvZGVfYWNjZXNzX3Rva2VuX2FkbWluIiwidXNlcl9mcmVlemVfZmxhZyI6IjAiLCJhdmF0YXIiOiIiLCJhdXRob3JpdGllcyI6WyJhZG1pbiJdLCJjbGllbnRfaWQiOiJrc3B0IiwiZGF0YV9zb3VyY2UiOm51bGwsInJvbGVfbmFtZSI6ImFkbWluIiwibGljZW5zZSI6InBvd2VyZWQgYnkgYmxhZGV4IiwidXNlcl90eXBlIjpudWxsLCJjb21wYW55bm8iOm51bGwsInVzZXJfaWQiOiIxNDcxNDIyNzY0NzIwMjIwNzI4Iiwicm9sZV9pZCI6IjIwMjAxMTEzMTc1MzAxIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6IuiOt-WPlumJtOadg-eUqOaIt--8jOS4jeWPr-WIoOmZpCIsImNsaWVudCI6bnVsbCwiZXhwIjoxNjU5MzU3MDc3LCJkZXB0X2lkIjoiMTE2OTUyNjMyMDI0NjM4NjY5MCIsImp0aSI6ImZkNWQ0OGNiLTBlOGMtNGFjNi1iMDE4LWU3ZGUzMjQyMTZiOCIsImFjY291bnQiOiJoZWFsdGhfY29kZV9hY2Nlc3NfdG9rZW5fYWRtaW4ifQ.uff6pUChzwna7LYxXUXZNxJHBj3nmy6KVZAejnRkOic",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic a3NwdF9kcml2ZXI6c2Fhc19rc3B0X2RyaXZlcg==",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://119.3.13.80:81/mer-queue/health/getHealthCodeInfo?cardNumber=37018119960213411X&userName=郭辉",
+					"protocol": "http",
+					"host": [
+						"119",
+						"3",
+						"13",
+						"80"
+					],
+					"port": "81",
+					"path": [
+						"mer-queue",
+						"health",
+						"getHealthCodeInfo"
+					],
+					"query": [
+						{
+							"key": "cardNumber",
+							"value": "37018119960213411X"
+						},
+						{
+							"key": "userName",
+							"value": "郭辉"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
