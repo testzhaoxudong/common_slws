@@ -1,4 +1,8 @@
 import os
+import unittest
+from BeautifulReport import BeautifulReport
+from selenium.webdriver.common.keys import Keys
+
 import time
 from selenium import webdriver
 from selenium.webdriver.support import expected_conditions
@@ -32,8 +36,19 @@ class CommonCode:
     """通用方法无：元素点位"""
     def element(self,driver,element):
         WebDriverWait(driver, 10, 0.2).until(expected_conditions.presence_of_element_located((element)))
+    """停用方法六：BeautifulReport测试报告"""
 
-
+    def beautifulreport(self,testcase_path,pattern,report_patn,report_name_miaoshu,report__miaoshu):
+        #pattern:要执行的用力名称(pattern="test*.py")
+        # testcase_path = os.path.join(os.path.dirname(__file__), "..", "..", "test_case", "dianzi_tihuodan")
+        taojian = unittest.defaultTestLoader.discover(testcase_path, pattern=pattern)
+        # report_patn = os.path.join(os.path.dirname(__file__), "..", "..", "..", "report")
+        get_time = time.strftime("%Y%m%d%H%M%S")
+        repoer_name = get_time + report_name_miaoshu + ".html"
+        BeautifulReport(taojian).report(report__miaoshu,filename=repoer_name, report_dir=report_patn)
+    """通用方法七：回退（backspace）"""
+    def backspace(self,driver,element):
+        driver.find_element_by_xpath(  element  ).send_Keys(Keys.BACK_SPACE)
 
 
 

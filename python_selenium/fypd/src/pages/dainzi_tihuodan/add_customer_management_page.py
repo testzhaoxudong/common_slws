@@ -5,7 +5,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from python_selenium.fypd.src.common.common_code import CommonCode
 class AddCustomerManagementPage(CommonCode):
     dianzi_tihuodan = By.XPATH,'//*[@id="root"]/div/section/div/aside/div/ul/li[4]'                 #电子提货单【4】
-    cus_manag = By.XPATH,'//*[@id="/billOfLoading$Menu"]/li[1]/a'                       #客户管理
+    cus_manag = By.XPATH,'//*[@id="/billOfLoading$Menu"]/li[1]/a'                                   #客户管理
     add_button = By.XPATH,'//*[@id="root"]/div/section/section/main/div/div[3]/div/div[2]/div[2]/div/div/div/div/div[2]/div/button[1]'
 
     creditCode = By.ID,'creditCode'         #客户税号
