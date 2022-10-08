@@ -19,7 +19,7 @@ class LoginPage(CommonCode):
         object.send_keys(driver,self.password,password_value)
         #点击登录按钮
         object.click(driver,self.login_button)
-        #登录成功断言方法
+    #登录成功断言方法
     def success_assert(self,driver):
         #获取登录成功断言文本
         text = WebDriverWait(driver, 10, 0.2).until(expected_conditions.presence_of_element_located((self.success_assert_text))).text

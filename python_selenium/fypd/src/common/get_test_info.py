@@ -18,9 +18,6 @@ class GetTestInfo:
             dict_data = dict(reader_data)
         return dict_data[key]
 
-
-
-
 if __name__ == '__main__':
     data = GetTestInfo().get_test_data("login_test_case_data.csv",1)
     print(type(data))
