@@ -33,7 +33,7 @@ class CommonCode:
         pictuer_name = get_system_time + describe + ".png"
         pictuer_path = os.path.join(os.path.dirname(__file__),"..","..","pictures",pictuer_name)
         driver.get_screenshot_as_file(pictuer_path)
-    """通用方法无：元素点位"""
+    """通用方法无：元素定位"""
     def element(self,driver,element):
         WebDriverWait(driver, 10, 0.2).until(expected_conditions.presence_of_element_located((element)))
     """停用方法六：BeautifulReport测试报告"""
