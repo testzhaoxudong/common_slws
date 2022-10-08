@@ -18,9 +18,9 @@ from python_selenium.fypd.src.pages.other.login_page import LoginPage
 # print(config)
 # driver = CommonCode().init_driver("pc_url")
 
-# driver = webdriver.Chrome()
-# driver.maximize_window()
-# driver.get('http://119.3.13.80:85/#/user/login')
+driver = webdriver.Chrome()
+driver.maximize_window()
+driver.get('http://119.3.13.80:85/#/user/login')
 
 # data =  GetTestInfo().get_test_data("login_test_case_data.csv",2)
 # print(list(data))
@@ -28,7 +28,7 @@ from python_selenium.fypd.src.pages.other.login_page import LoginPage
 # LoginPage().login_oper(driver,data[0],data[1])
 # username = By.ID,"username"  #用户名
 # password = By.ID,"password"  #密码
-# login_button = By.XPATH, '//*[@class="ant-btn antd-pro-components-login-index-submit ant-btn-primary ant-btn-lg ant-btn-two-chinese-chars"]'
+login_button = By.XPATH, '//*[@class="ant-btn antd-pro-components-login-index-submit ant-btn-primary ant-btn-lg ant-btn-two-chinese-chars"]'
 # object = CommonCode()
 # 输入用户名
 # object.send_keys(driver,username,'ykjt_slws_admin1')
@@ -36,13 +36,13 @@ from python_selenium.fypd.src.pages.other.login_page import LoginPage
 # object.send_keys(driver,password,'matrix@2022')
 # 点击登录按钮
 # object.click(driver,login_button)
-# username = WebDriverWait(driver,10,0.2).until(expected_conditions.presence_of_element_located((By.ID,"username")))
-# username.send_keys('ykjt_slws_admin1')
-
-# password = WebDriverWait(driver,10,0.2).until(expected_conditions.presence_of_element_located((By.ID,"password")))
-# password.send_keys('matrix@2022')
+username = WebDriverWait(driver,10,0.2).until(expected_conditions.presence_of_element_located((By.ID,"username")))
+username.send_keys('ykjt_slws_admin')
 #
-# WebDriverWait(driver,10,0.2).until(expected_conditions.presence_of_element_located((login_button))).click()
+password = WebDriverWait(driver,10,0.2).until(expected_conditions.presence_of_element_located((By.ID,"password")))
+password.send_keys('matrix@2022')
+#
+WebDriverWait(driver,10,0.2).until(expected_conditions.presence_of_element_located((login_button))).click()
 
 # a = driver.switch_to_alert()
 # print(a.text)
@@ -65,9 +65,31 @@ from python_selenium.fypd.src.pages.other.login_page import LoginPage
 # alert=driver.switch_to.alert
 # 获取消息框文本在控制台打印
 # print(alert.text)
-materialNo = GetTestInfo().get_test_data("add_tihuodan_management_test_data.csv",1)
-key = materialNo[0]
-print(key)
+# materialNo = GetTestInfo().get_test_data("add_tihuodan_management_test_data.csv",1)
+# key = materialNo[0]
+# print(key)
+dianzi_tihuodan = By.XPATH, '//*[@id="root"]/div/section/div/aside/div/ul/li[4]'  # 电子提货单【4】
+tihuodan_management = By.LINK_TEXT, '提货单管理'
+# add_button = By.XPATH, '//*[@id="root"]/div/section/section/main/div/div[3]/div/div[2]/div[2]/div/div/div/div/div[2]/div/button[1]'
+
+materialNo = By.ID, "materialNo"
+object = CommonCode()
+object.click(driver,dianzi_tihuodan)
+object.click(driver,tihuodan_management)
+# sleep(2)
+# object.click(driver,add_button)
+
+object.click(driver,materialNo)
+element = By.XPATH,'//ul[@role="listbox"]/li'
+# text_1 = driver.find_elements_by_xpath('//ul[@role="listbox"]/li')
+text_1 = WebDriverWait(driver,10,0.1).until(expected_conditions.presence_of_all_elements_located((element)))
+# print(text_1.text)
+for li in text_1:
+    # print(text_1)
+    print(li.text)
+    if "粉煤（门克庆车队）" in li.text:
+        li.click()
+
 
 
 

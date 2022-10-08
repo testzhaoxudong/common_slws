@@ -56,6 +56,17 @@ class AddTihuodanManagementPage(CommonCode):
         elif key == "矸石5":
             object.click(driver,self.materialNo_7)
         # sleep(1)
+
+        """ object.click(driver,materialNo)
+            element = By.XPATH,'//ul[@role="listbox"]/li'
+            text_1 = driver.find_elements_by_xpath('//ul[@role="listbox"]/li')
+            text_1 = WebDriverWait(driver,10,0.1).until(expected_conditions.presence_of_all_elements_located((element)))
+            print(text_1.text)
+            for li in text_1:
+                print(li.text)
+                if "粉煤（门克庆车队）" in li.text:
+                    li.click()"""
+
         object.send_keys(driver,self.custName,custName_value)
         sleep(0.01)
         object.send_keys(driver,self.custName,Keys.ENTER)
@@ -67,4 +78,5 @@ class AddTihuodanManagementPage(CommonCode):
         assert_text = WebDriverWait(driver,10,0.2).until(expected_conditions.presence_of_element_located((self.success_assert))).text
         # assert_text = CommonCode().element(driver,self.success_assert)
         return assert_text
+
 
