@@ -64,7 +64,7 @@ class AddAccountManagementPage(CommonCode):
             expected_conditions.presence_of_element_located((self.fail_text))).text
         return exist_customer_account_management
 
-    def add_exist_account_management_text(self,driver):
-        exist_account_management_text = WebDriverWait(driver, 10, 0.2).until(
-            expected_conditions.presence_of_element_located((self.fail_text))).text
-        return exist_account_management_text
+    # def add_exist_account_management_text(self,driver):
+    #     exist_account_management_text = WebDriverWait(driver, 10, 0.2).until(
+    #         expected_conditions.presence_of_element_located((self.fail_text))).text
+    #     return exist_account_management_text

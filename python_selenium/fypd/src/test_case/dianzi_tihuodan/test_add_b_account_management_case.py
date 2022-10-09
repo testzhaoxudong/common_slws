@@ -45,7 +45,7 @@ class AddAccountManagementTestCase(unittest.TestCase):
             AddAccountManagementBusiness().add_account_management_save_function(self.driver, 3)
             get_expect_assert_text = GetTestInfo().get_test_data("add_account_management_test_case_data.csv",3)
             sleep(1)
-            get_actual_assert_text = AddAccountManagementPage().add_exist_account_management_text(self.driver)
+            get_actual_assert_text = AddAccountManagementPage().add_account_management_success_text(self.driver)
             self.assertEqual(get_actual_assert_text, get_expect_assert_text[-1])
         except:
             CommonCode().get_screenshot(self.driver, "test_add_3_exist_account_management_case")
