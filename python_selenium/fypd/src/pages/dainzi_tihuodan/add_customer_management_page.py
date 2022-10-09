@@ -34,7 +34,8 @@ class AddCustomerManagementPage(CommonCode):
         object.send_keys(driver, self.custname,custname_value)
         object.send_keys(driver, self.forshort,forshort_value)
         object.send_keys(driver, self.busideptprin,busideptprin_value)
-        object.send_keys(driver, self.prinphone,prinphone_value)
+        object.send_keys(driver, self.prinphone,
+                         )
         object.click(driver,self.addressName)
         object.send_keys(driver, self.addressName,addressName_value)
 

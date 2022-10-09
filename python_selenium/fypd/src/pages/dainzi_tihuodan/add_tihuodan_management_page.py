@@ -40,7 +40,6 @@ class AddTihuodanManagementPage(CommonCode):
         object.click(driver,self.materialNo)
         materialNo = GetTestInfo().get_test_data("add_tihuodan_management_test_data.csv",line)
         key = materialNo[0]
-        print(key)
         if key == "10-8系统测试物资":
             object.click(driver,self.materialNo_1)
         elif key == "大块":
@@ -68,7 +67,7 @@ class AddTihuodanManagementPage(CommonCode):
                     li.click()"""
 
         object.send_keys(driver,self.custName,custName_value)
-        sleep(0.01)
+        sleep(1)
         object.send_keys(driver,self.custName,Keys.ENTER)
         object.send_keys(driver,self.deliveryCount,deliveryCount_value)
         object.send_keys(driver,self.plannedTonnage,plannedTonnage_value)

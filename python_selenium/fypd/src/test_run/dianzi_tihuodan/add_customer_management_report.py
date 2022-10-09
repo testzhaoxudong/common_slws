@@ -11,5 +11,5 @@ class AddCustomerManagementReport:
         repoer_name = get_time + "AddCustomerManagementReport" + ".html"
         report_path = os.path.join(os.path.dirname(__file__),"..","..","..","report")
         testcase_path = os.path.join(os.path.dirname(__file__),"..","..","test_case","dianzi_tihuodan")
-        taojian = unittest.defaultTestLoader.discover(testcase_path,pattern='test_add_customer_management_case.py')
+        taojian = unittest.defaultTestLoader.discover(testcase_path,pattern='test_add_a_customer_management_case.py')
         BeautifulReport(taojian).report("AddCustomerManagementReport",filename=repoer_name,report_dir=report_path)

@@ -9,7 +9,7 @@ class AddAccountManagementReport:
         #获取测试用例存放地址
         testcase_path = os.path.join(os.path.dirname(__file__),"..","..","test_case","dianzi_tihuodan")
         #使用unittest方法获取测试套件
-        taojian = unittest.defaultTestLoader.discover(testcase_path,pattern="test_add_account_management_case.py")
+        taojian = unittest.defaultTestLoader.discover(testcase_path,pattern="test_add_b_account_management_case.py")
         #获取时间戳用来给自测报告命名
         get_strftime = time.strftime("%Y%m%d%H%M%S")
         report_name = get_strftime + "AddAccountManagementReport" + ".html"

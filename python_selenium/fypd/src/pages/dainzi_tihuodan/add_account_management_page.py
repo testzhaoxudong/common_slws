@@ -20,9 +20,10 @@ class AddAccountManagementPage(CommonCode):
     save_button = By.XPATH,'//*[@id="root"]/div/section/section/main/div/div[3]/div/div[2]/div[1]/div/div/div/div[1]/div/div/span/button'   #保存
     cancel_button = By.XPATH,'//*[@id="root"]/div/section/section/main/div/div[3]/div[5]/div[2]/div[1]/div/div/div/div[1]/div/div/button'      #返回
 
-    success_test = By.XPATH,'//*[text()="操作成功"]'
-    exist_customer_account_management = By.XPATH,'//*[text()="该客户登录用户已存在！"]'      #该客户登录用户已存在
-    exist_account_management = By.XPATH,'//*[text()="该账号已被占用，不允许重复注册"]'       #该账号已被占用，不允许重复注册
+    success_text = By.XPATH,'//*[text()="操作成功"]'
+    # exist_customer_account_management = By.XPATH,'//*[text()="该客户登录用户已存在！"]'      #该客户登录用户已存在
+    # exist_account_management = By.XPATH,'//*[text()="该账号已被占用，不允许重复注册"]'       #该账号已被占用，不允许重复注册
+    fail_text = By.XPATH,'/html/body/div[3]/div/span/div/div/div'
 
     def add_account_management_save_oper(self,driver,customer_name_value,account_value,realName_value,password_value):
         object = CommonCode()
@@ -31,15 +32,14 @@ class AddAccountManagementPage(CommonCode):
         sleep(1)
         object.click(driver,self.add_button)
         object.send_keys(driver,self.customer_name,customer_name_value)
-        # object.backspace(driver,self.customer_name)
-        # sleep(2)
+        sleep(1)
         WebDriverWait(driver,10,0.2).until(expected_conditions.presence_of_element_located((self.customer_name))).send_keys(Keys.ENTER)
         object.send_keys(driver,self.account,account_value)
         object.send_keys(driver,self.realName,realName_value)
         object.send_keys(driver,self.password,password_value)
         object.click(driver,self.save_button)
-        alert = driver.switch_to.alert
-        print(alert.text)
+        # alert = driver.switch_to.alert
+        # print(alert.text)
 
     def add_account_management_cancel_oper(self,driver,customer_name_value,account_value,realName_value,password_value):
         object = CommonCode()
@@ -55,14 +55,16 @@ class AddAccountManagementPage(CommonCode):
 
 
     def add_account_management_success_text(self,driver):
-        assert_text = WebDriverWait(driver,10,0.2).until(expected_conditions.presence_of_element_located((self.success_test))).text
+        assert_text = WebDriverWait(driver,10,0.2).until(
+            expected_conditions.presence_of_element_located((self.success_text))).text
         return assert_text
 
     def add_exist_customer_account_management_text(self,driver):
         exist_customer_account_management = WebDriverWait(driver,10,0.2).until(
-            expected_conditions.presence_of_element_located((self.exist_customer_account_management))).text
+            expected_conditions.presence_of_element_located((self.fail_text))).text
         return exist_customer_account_management
+
     def add_exist_account_management_text(self,driver):
         exist_account_management_text = WebDriverWait(driver, 10, 0.2).until(
-            expected_conditions.presence_of_element_located((self.exist_account_management))).text
+            expected_conditions.presence_of_element_located((self.fail_text))).text
         return exist_account_management_text
