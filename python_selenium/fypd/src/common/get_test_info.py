@@ -22,6 +22,6 @@ if __name__ == '__main__':
     data = GetTestInfo().get_test_data("login_test_case_data.csv",1)
     print(type(data))
     print(data)
-    config = GetTestInfo().get_test_config("url.csv","pc_url")
+    config = GetTestInfo().get_test_config("slws_url.csv","pc_url")
     print(config)
 

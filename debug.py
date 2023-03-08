@@ -14,7 +14,7 @@
 #         print(dict1["边边"])
 
 # 案例2：获取dictory里的信息，并且把url的value值， data中嵌套字典的每个value值，按行输出
-import json
+# import json
 
 # dictory={'url':'http://www.baidu.com','data':{'username':'admin','pwd':'123456'}}
 # for i in dictory:
@@ -35,6 +35,8 @@ import json
 # a = dict(dictory['url'])
 # print(type(dictory["url"]))
 # print(dictory.items())
+from pprint import pprint
+
 import requests
 
 import time
@@ -78,39 +80,87 @@ import time
 #
 # print(res.json())
 
+#
+# url = "http://36.133.124.14:89/api/shipper-auth/oauth/token"
+# data = {
+#     'password':'123456',
+#     'tenantId':'847975',
+#     'type':'account',
+#     'username':'山东仁华建材有限公司',
+#     'grant_type':'password',
+#     'scope':'all',
+# }
+# headers = {
+#     'Accept':'application/json',
+#     'Accept-Encoding':'gzip, deflate',
+#     'Accept-Language':'zh-CN,zh;q=0.9',
+#     'Authorization':'Basic a3NwdF9zaGY6c2Fhc19rc3B0X3NoZg==',
+#     'Content-Length':'669',
+#     'Content-Type':'multipart/form-data; boundary=----WebKitFormBoundaryMb3zMfHZuksvH1uD',
+#     'Host':'36.133.124.14:89',
+#     'Origin':'http://36.133.124.14:89',
+#     'Proxy-Connection':'keep-alive',
+#     'Referer':'http://36.133.124.14:89/',
+#     'Tenant-Id':'847975',
+#     'User-Agent':'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36'
+# }
+# res = requests.post(url,data,headers=headers)
+# print(res.status_code,res.cookies)
 
-url = "http://36.133.124.14:89/api/shipper-auth/oauth/token"
-data = {
-    'password':'123456',
-    'tenantId':'847975',
-    'type':'account',
-    'username':'山东仁华建材有限公司',
-    'grant_type':'password',
-    'scope':'all',
-}
+# returnPrice=0
+# sale=float(input("请输入商品单价:"))
+# num=int(input("请请输入购买商品数量:"))
+# receivePrice=float(input("请输入收取多少钱:"))
+# returnPrice=receivePrice-num*sale
+# print("找回金额应是:"+str(returnPrice))
+
+
+
+
+
+"""import http.client
+
+conn = http.client.HTTPConnection("119.3.13.80:85")
+
 headers = {
-    'Accept':'application/json',
-    'Accept-Encoding':'gzip, deflate',
-    'Accept-Language':'zh-CN,zh;q=0.9',
-    'Authorization':'Basic a3NwdF9zaGY6c2Fhc19rc3B0X3NoZg==',
-    'Content-Length':'669',
-    'Content-Type':'multipart/form-data; boundary=----WebKitFormBoundaryMb3zMfHZuksvH1uD',
-    'Host':'36.133.124.14:89',
-    'Origin':'http://36.133.124.14:89',
-    'Proxy-Connection':'keep-alive',
-    'Referer':'http://36.133.124.14:89/',
-    'Tenant-Id':'847975',
-    'User-Agent':'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Mobile Safari/537.36'
-}
-res = requests.post(url,data,headers=headers)
-print(res.status_code,res.cookies)
+    'current': "",
+    'size': "",
+    'Blade-Auth': "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5hbnRfaWQiOiI5MjU2NTAiLCJ0ZW5hbnRfbmFtZSI6bnVsbCwidXNlcl9uYW1lIjoieWtqdF96bHdfYWRtaW4iLCJ1c2VyX2ZyZWV6ZV9mbGFnIjoiMCIsImF2YXRhciI6IiIsImF1dGhvcml0aWVzIjpbImFkbWluIl0sImNsaWVudF9pZCI6ImtzcHQiLCJkYXRhX3NvdXJjZSI6bnVsbCwicm9sZV9uYW1lIjoiYWRtaW4sYWRtaW4iLCJsaWNlbnNlIjoicG93ZXJlZCBieSBibGFkZXgiLCJ1c2VyX3R5cGUiOm51bGwsImNvbXBhbnlubyI6bnVsbCwidXNlcl9pZCI6IjIwMjExMjA3MTEyNTAyIiwicm9sZV9pZCI6IjIwMjAxMTEzMTc1MzAxLDIwMjExMjA3MTA0ODAxIiwic2NvcGUiOlsiYWxsIl0sIm5pY2tfbmFtZSI6IuWFluefv-iDvea6kOi9rOm-mea5vuWOguWMuueuoeeQhuWRmCIsImNsaWVudCI6bnVsbCwiZXhwIjoxNjc2MzA5MjczLCJkZXB0X2lkIjoiMTQ2ODA0ODE0MTg4MTE4NDI1OCIsImp0aSI6IjU5ZDg5MDZhLTNkZDEtNGI1OS1iYzU4LTcwY2Y5ZWJiYWQ4NiIsImFjY291bnQiOiJ5a2p0X3psd19hZG1pbiJ9.fdH3k9NfBlnGqlkAf9CAMqjYaUpjjGf-xsoG2yr0Q7M"
+    }
 
+conn.request("GET", "/api/mer-dispatch/despatchdirection/list?current=1&size=200", headers=headers)
 
+res = conn.getresponse()
+data = res.read()
 
+pprint(data.decode("utf-8"))"""
 
+import http.client
 
+conn = http.client.HTTPConnection("119.3.13.80:85")
 
+payload = "-----011000010111000001101001\r\nContent-Disposition: form-data; name=\"username\"\r\n\r\nykjt_zlw_admin\r\n-----011000010111000001101001\r\nContent-Disposition: form-data; name=\"password\"\r\n\r\n123456\r\n-----011000010111000001101001\r\nContent-Disposition: form-data; name=\"tenantId\"\r\n\r\nlogin\r\n-----011000010111000001101001\r\nContent-Disposition: form-data; name=\"type\"\r\n\r\naccount\r\n-----011000010111000001101001\r\nContent-Disposition: form-data; name=\"grant_type\"\r\n\r\npassword\r\n-----011000010111000001101001\r\nContent-Disposition: form-data; name=\"scope\"\r\n\r\nall\r\n-----011000010111000001101001--\r\n\r\n"
 
+headers = {
+    'Accept': "application/json",
+    'Accept-Encoding': "gzip, deflate",
+    'Accept-Language': "zh-CN,zh;q=0.9",
+    'Authorization': "Basic a3NwdDpzYWFzX2tzcHQ=",
+    'Connection': "keep-alive",
+    'Content-Length': "652",
+    'Content-Type': "multipart/form-data; boundary=---011000010111000001101001",
+    'Host': "119.3.13.80:85",
+    'Origin': "http://119.3.13.80:85",
+    'Referer': "http://119.3.13.80:85/",
+    'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36"
+    }
+
+conn.request("POST", "/api/shipper-auth/oauth/token", payload, headers)
+
+res = conn.getresponse()
+data = res.read()
+
+print(data.decode("utf-8"))
 
 
 

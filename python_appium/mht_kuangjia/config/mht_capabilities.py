@@ -16,7 +16,7 @@ def getDriver(isInstall):
         pro_dir=os.path.dirname(base_dir)
         desire_cap['app']=os.path.join(pro_dir,'app',desire_cap['appName'])
     # print(desire_cap)
-    url="http://"+desire_cap["appiumIp"]+':'+str(desire_cap["appiumPort"])+'/wd/hub'
+    url="http://"+desire_cap["appiumIp"]+':' + str(desire_cap["appiumPort"])+'/wd/hub'
     appDriver=webdriver.Remote(url,desire_cap)
     sleep(3)
     return appDriver

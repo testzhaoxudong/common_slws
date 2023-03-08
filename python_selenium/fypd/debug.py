@@ -1,6 +1,9 @@
 
 #get_test_info
+from time import sleep
+
 from selenium import webdriver
+from selenium.webdriver import ActionChains
 from selenium.webdriver.common.alert import Alert
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
@@ -14,7 +17,7 @@ from python_selenium.fypd.src.pages.other.login_page import LoginPage
 # if __name__ == '__main__':
 # data = GetTestInfo().get_test_data("login_test_case_data.csv",1)
 # print(data)
-# config = GetTestInfo().get_test_config("url.csv","pc_url")
+# config = GetTestInfo().get_test_config("slws_url.csv","pc_url")
 # print(config)
 # driver = CommonCode().init_driver("pc_url")
 
@@ -68,30 +71,46 @@ WebDriverWait(driver,10,0.2).until(expected_conditions.presence_of_element_locat
 # materialNo = GetTestInfo().get_test_data("add_tihuodan_management_test_data.csv",1)
 # key = materialNo[0]
 # print(key)
-dianzi_tihuodan = By.XPATH, '//*[@id="root"]/div/section/div/aside/div/ul/li[4]'  # 电子提货单【4】
-tihuodan_management = By.LINK_TEXT, '提货单管理'
+# dianzi_tihuodan = By.XPATH, '//*[@id="root"]/div/section/div/aside/div/ul/li[4]'  # 电子提货单【4】
+# tihuodan_management = By.LINK_TEXT, '提货单管理'
 # add_button = By.XPATH, '//*[@id="root"]/div/section/section/main/div/div[3]/div/div[2]/div[2]/div/div/div/div/div[2]/div/button[1]'
 
-materialNo = By.ID, "materialNo"
-object = CommonCode()
-object.click(driver,dianzi_tihuodan)
-object.click(driver,tihuodan_management)
+# materialNo = By.ID, "materialNo"
+# object = CommonCode()
+# object.click(driver,dianzi_tihuodan)
+# object.click(driver,tihuodan_management)
 # sleep(2)
 # object.click(driver,add_button)
 
-object.click(driver,materialNo)
-element = By.XPATH,'//ul[@role="listbox"]/li'
+# object.click(driver,materialNo)
+# element = By.XPATH,'//ul[@role="listbox"]/li'
 # text_1 = driver.find_elements_by_xpath('//ul[@role="listbox"]/li')
-text_1 = WebDriverWait(driver,10,0.1).until(expected_conditions.presence_of_all_elements_located((element)))
+# text_1 = WebDriverWait(driver,10,0.1).until(expected_conditions.presence_of_all_elements_located((element)))
 # print(text_1.text)
-for li in text_1:
-    # print(text_1)
-    print(li.text)
-    if "粉煤（门克庆车队）" in li.text:
-        li.click()
-
-
-
+# for li in text_1:
+#     print(text_1)
+    # print(li.text)
+    # if "粉煤（门克庆车队）" in li.text:
+    #     li.click()
+# KUANG = By.CSS_SELECTOR,'[data-row-key="1578994683894431746"]>td>span>label>span'
+# object.click(driver,KUANG)
+# WebDriverWait(driver,10,0.2).until(expected_conditions.presence_of_all_elements_located((By.CSS_SELECTOR,'[class="ant-btn ant-btn-danger"]')))[-1].click()
+# dialog = driver.switch_to.alert
+# print(dialog.text)
+# dialog.accept()
+# move_to_element = By.CSS_SELECTOR,'[class="antd-pro-components-global-header-index-name"]'
+# move = driver.find_element_by_xpath('//*[@class="ant-avatar antd-pro-components-global-header-index-avatar ant-avatar-sm ant-avatar-circle"]')
+move = WebDriverWait(driver,10,0.2).until(expected_conditions.presence_of_element_located((By.XPATH,'//*[@class="antd-pro-components-global-header-index-name"]')))
+click_logout = WebDriverWait(driver,10,0.2).until(expected_conditions.presence_of_all_elements_located((By.XPATH,'//li[@class="ant-dropdown-menu-item"]')))[-1]
+save_logout = WebDriverWait(driver,10,0.2).until(expected_conditions.presence_of_all_elements_located((By.XPATH,'//button[@class="ant-btn ant-btn-danger"]')))[-1]
+# =====================动作链的分步写法======================
+actions = ActionChains(driver)
+actions.move_to_element(move).perform()
+sleep(2)
+actions.click(click_logout)
+sleep(1)
+actions.click(save_logout)
+actions.perform()
 
 
 

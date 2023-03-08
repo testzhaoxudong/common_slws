@@ -15,7 +15,7 @@ class CommonCode:
     def init_driver(self,key):
         driver = webdriver.Chrome()
         driver.maximize_window()
-        url = GetTestInfo().get_test_config("url.csv",key)
+        url = GetTestInfo().get_test_config("slws_url.csv",key)
         driver.get(url)
         wait = WebDriverWait(driver,10,0.2)
         return driver,wait

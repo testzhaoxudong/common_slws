@@ -34,7 +34,7 @@ class GeneralMethod():
     def chushihua_driver(self,URL):
         driver = webdriver.Chrome()
         driver.maximize_window()
-        url = GetTestInfo().get_test_info("url.csv")
+        url = GetTestInfo().get_test_info("slws_url.csv")
         driver.get(url[URL])
         wait = WebDriverWait(driver,10,0.2)
         return driver,wait
